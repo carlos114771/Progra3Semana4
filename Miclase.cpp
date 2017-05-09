@@ -9,7 +9,7 @@ MiClase::MiClase(){
 }
 
 MiClase::MiClase(int pSize){
-    size = pSize;
+    this->size = pSize;
     pointer = new int[size];
     
 }
