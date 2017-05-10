@@ -10,7 +10,7 @@ int main(){
 
     myclass2->set(0,200);
     
-    (*myclass2).set(1,300);
+   // (*myclass2).set(1,300);
 
     delete myclass2;
 
