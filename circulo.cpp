@@ -1,5 +1,5 @@
-#include "circulo.h"
 
+#include "circulo.h" 
 #define PI 3.14159265
 Circulo::Circulo(){
     radio=5;
@@ -17,7 +17,7 @@ double Circulo::getRadio(){
     return radio;
 }
 
-double Circulo::area()
+double Circulo::area(){
     return radio*radio*PI;
 }
 

@@ -4,8 +4,8 @@
 class Figura{
     
     public:
-        double area();
-        double perimetro();
+        virtual  double area();
+        virtual  double perimetro();
 
 
 };

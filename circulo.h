@@ -2,7 +2,7 @@
 #ifndef cilculo_h
 #define circulo_h
 #define PI 3.14159265
-class Circulo:public Figura(){
+class Circulo:public Figura{
     private:
         double radio;
     public:
